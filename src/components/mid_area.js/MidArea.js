@@ -2,13 +2,13 @@ import React, { useEffect, useState } from "react";
 import { Droppable, Draggable } from "react-beautiful-dnd";
 import "./style.css";
 import { useSelector } from "react-redux";
-import { useDispatch } from "react-redux";
-import { spriteActions } from "../../store/sprite-slice";
-import { selectedSpriteActions } from "../../store/selected_sprite_slice";
-import { spriteStyleActions } from "../../store/sprite_style_slice";
+// import { useDispatch } from "react-redux";
+// import { spriteActions } from "../../store/sprite-slice";
+// import { selectedSpriteActions } from "../../store/selected_sprite_slice";
+// import { spriteStyleActions } from "../../store/sprite_style_slice";
 
 export default function MidArea() {
-  const dispatch = useDispatch()
+  // const dispatch = useDispatch()
   const selectedSpriteId = useSelector(state => state.selectedStripe.stripeId)
   const allStripes = useSelector(state => state.sprite.sprites)
   const [currentSpriteActions, setSpriteActions] = useState([])
