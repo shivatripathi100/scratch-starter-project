@@ -1,5 +1,5 @@
 import React from "react";
-import Icon from "../Icon";
+// import Icon from "../Icon";
 import IconSideBar from "../icon_side_bar.js/IconSideBar";
 import "./style.css";
 import { useSelector } from "react-redux";
