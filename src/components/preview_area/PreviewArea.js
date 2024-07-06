@@ -182,7 +182,7 @@ export default function PreviewArea() {
 
   function motion(actions, selectedSprite) {
     const action = blocks[actions.action];
-    const actionId = action.findIndex(({ id }) => actions.blockId == id);
+    const actionId = action.findIndex(({ id }) => actions.blockId === id);
     const actionPerformed = action[actionId];
   
     let currentStyle = { ...selectedSprite.style };
