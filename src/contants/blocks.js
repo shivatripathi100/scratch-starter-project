@@ -34,8 +34,8 @@ export const blocks = {
         {
           id:0,
           action:'Move',
-          count:20,
-          title: 'Move 20 steps'
+          count:30,
+          title: 'Move 30 steps'
         },
         {
           id:1,
