@@ -16,7 +16,7 @@ export default function MidArea() {
 
   useEffect(() => {
    spriteActions= allStripes.filter(({spriteId}) => {
-      return spriteId == selectedSpriteId
+      return spriteId === selectedSpriteId
     })[0].actions
     setSpriteActions(spriteActions)
     setSpriteActions([...spriteActions])
